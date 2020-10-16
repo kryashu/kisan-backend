@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dcaeefb7-ef45-4d57-8fcc-c2cdbe8f3100" name="Default Changelist" comment="" />
+    <list default="true" id="dcaeefb7-ef45-4d57-8fcc-c2cdbe8f3100" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/configs/dbConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/jwtConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/userController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/driver_model.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/driver_model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/user_model.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/user_model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1iq8zS4nApZQfc6Jyd1JgbZgP5C" />
   <component name="ProjectViewState">
@@ -15,9 +27,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../khatabook-fse-api" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/configs" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/configs" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -31,7 +48,8 @@
       <workItem from="1602653665426" duration="12000" />
       <workItem from="1602694445283" duration="276000" />
       <workItem from="1602745919515" duration="14000" />
-      <workItem from="1602848842909" duration="8211000" />
+      <workItem from="1602848842909" duration="8925000" />
+      <workItem from="1602879239518" duration="2409000" />
     </task>
     <servers />
   </component>

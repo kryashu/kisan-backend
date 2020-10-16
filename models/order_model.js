@@ -32,6 +32,10 @@ const orderSchema = new mongoose.Schema({
         type: mongoose.SchemaTypes.ObjectID,
         ref: 'Addresses'
     },
+    delivered: {
+        type: Boolean,
+        default: false
+    },
     deliveryDate: {
         type: Date
     }

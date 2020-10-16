@@ -29,11 +29,13 @@ const requestSchema = mongoose.Schema({
         type: mongoose.SchemaTypes.ObjectId,
         ref: 'Drivers'
     },
-    deliveryDate: {
+    completed: {
+        type: Boolean,
+        default: false
+    },
+    completionDate: {
         type: Date
     }
-},{
-    timestamps: true
-})
+}, {timestamps: true})
 
 module.exports = mongoose.model('Requests', requestSchema)
