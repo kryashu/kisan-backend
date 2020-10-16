@@ -26,6 +26,6 @@ const productSchema = new mongoose.Schema({
         type: mongoose.SchemaTypes.ObjectId,
         ref: 'Categories'
     }
-})
+}, {timestamps: true})
 
 module.exports = new mongoose.model('Products', productSchema)

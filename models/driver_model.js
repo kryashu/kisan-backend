@@ -48,6 +48,6 @@ const driverSchema = new mongoose.Schema({
             ref: 'Requests'
         }
     ]
-    })
+    }, {timestamps: true})
 
 module.exports = mongoose.model('Drivers', driverSchema)

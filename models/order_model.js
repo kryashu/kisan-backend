@@ -1,19 +1,20 @@
 const mongoose = require('mongoose')
 
 const orderSchema = new mongoose.Schema({
-    products: [
-        {
+    productList: [{
+        product: {
             type: mongoose.SchemaTypes.ObjectID,
             ref: 'Products'
+        },
+        quantity: {
+            type: Number,
+            default: 1
         }
+    }
     ],
     orderedBy: {
         type: mongoose.SchemaTypes.ObjectID,
         ref: 'Users'
-    },
-    date: {
-        type: Date,
-        default: Date.now()
     },
     total: {
         type: mongoose.SchemaTypes.Decimal128,
@@ -30,7 +31,10 @@ const orderSchema = new mongoose.Schema({
     deliveryAddress: {
         type: mongoose.SchemaTypes.ObjectID,
         ref: 'Addresses'
+    },
+    deliveryDate: {
+        type: Date
     }
-})
+}, {timestamps: true})
 
 module.exports = mongoose.model('Orders', orderSchema)
